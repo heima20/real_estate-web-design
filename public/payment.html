@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout — SAIMO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-pay">
+
+  <header class="site-header site-header--pages">
+    <a href="index.html" class="site-brand">SAIMO</a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="browse.html">Browse</a>
+      <a href="login.html" class="nav-auth">Sign In</a>
+    </nav>
+  </header>
+
+  <main class="pay-main">
+    <div class="pay-card" id="pay-card">
+      <h1 class="font-display pay-card__title">Complete Reservation</h1>
+      <p class="pay-card__hint">Demo interface — no real charge will be made.</p>
+      <div class="pay-summary" id="pay-summary"></div>
+      <form class="pay-form" id="pay-form">
+        <label>Cardholder Name</label>
+        <input type="text" name="cardname" placeholder="As it appears on the card" required>
+        <label>Card Number</label>
+        <input type="text" name="card" placeholder="0000 0000 0000 0000" inputmode="numeric" maxlength="19" required>
+        <div class="pay-form__row">
+          <div>
+            <label>Expiry Date</label>
+            <input type="text" name="exp" placeholder="MM/YY" required>
+          </div>
+          <div>
+            <label>CVV</label>
+            <input type="password" name="cvv" placeholder="•••" maxlength="4" required>
+          </div>
+        </div>
+        <button type="submit" class="btn btn--solid btn--wide">Confirm Demo Payment</button>
+      </form>
+      <p class="pay-done" id="pay-done" hidden>Request registered (demo). Thank you for your trust.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <small>© SAIMO</small>
+    <div class="footer-links">
+      <a href="browse.html">Browse</a>
+      <a href="index.html">Home</a>
+    </div>
+  </footer>
+
+  <script src="payment.js"></script>
+</body>
+</html>

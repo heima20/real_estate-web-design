@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign in — SAIMO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-auth">
+
+  <header class="site-header site-header--pages">
+    <a href="index.html" class="site-brand">SAIMO</a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="browse.html">Browse</a>
+      <a href="login.html" class="is-active">Sign In</a>
+    </nav>
+  </header>
+
+  <main class="auth-main">
+    <div class="auth-card" id="auth-card">
+      <div class="auth-tabs">
+        <button type="button" class="auth-tab is-active" data-tab="login">Sign In</button>
+        <button type="button" class="auth-tab" data-tab="register">New Account</button>
+      </div>
+
+      <form class="auth-form" id="form-login">
+        <h1 class="font-display auth-form__title">Welcome Back</h1>
+        <label>Email</label>
+        <input type="email" name="email" required autocomplete="username" placeholder="you@example.com">
+        <label>Password</label>
+        <input type="password" name="password" required autocomplete="current-password" placeholder="••••••••">
+        <button type="submit" class="btn btn--solid btn--wide">Sign In</button>
+      </form>
+
+      <form class="auth-form" id="form-register" hidden>
+        <h1 class="font-display auth-form__title">Create Account</h1>
+        <label>Name</label>
+        <input type="text" name="name" required placeholder="Full Name">
+        <label>Email</label>
+        <input type="email" name="email" required autocomplete="email">
+        <label>Password</label>
+        <input type="password" name="password" required autocomplete="new-password" minlength="6" placeholder="At least 6 characters">
+        <button type="submit" class="btn btn--solid btn--wide">Register</button>
+      </form>
+
+      <p class="auth-msg" id="auth-msg" hidden></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <small>© SAIMO</small>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="auth.js"></script>
+</body>
+</html>

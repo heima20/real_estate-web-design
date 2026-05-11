@@ -1,0 +1,118 @@
+[
+  {
+    "value": "Cairo",
+    "label": "القاهرة"
+  },
+  {
+    "value": "Giza",
+    "label": "الجيزة"
+  },
+  {
+    "value": "Alexandria",
+    "label": "الإسكندرية"
+  },
+  {
+    "value": "North Coast",
+    "label": "الساحل الشمالي"
+  },
+  {
+    "value": "Red Sea",
+    "label": "البحر الأحمر"
+  },
+  {
+    "value": "South Sinai",
+    "label": "جنوب سيناء"
+  },
+  {
+    "value": "New Capital",
+    "label": "العاصمة الإدارية"
+  },
+  {
+    "value": "Fayoum",
+    "label": "الفيوم"
+  },
+  {
+    "value": "Luxor",
+    "label": "الأقصر"
+  },
+  {
+    "value": "Dakahlia",
+    "label": "الدقهلية"
+  },
+  {
+    "value": "Sharqia",
+    "label": "الشرقية"
+  },
+  {
+    "value": "Qalyubia",
+    "label": "القليوبية"
+  },
+  {
+    "value": "Kafr El Sheikh",
+    "label": "كفر الشيخ"
+  },
+  {
+    "value": "Gharbia",
+    "label": "الغربية"
+  },
+  {
+    "value": "Monufia",
+    "label": "المنوفية"
+  },
+  {
+    "value": "Beheira",
+    "label": "البحيرة"
+  },
+  {
+    "value": "Damietta",
+    "label": "دمياط"
+  },
+  {
+    "value": "Port Said",
+    "label": "بورسعيد"
+  },
+  {
+    "value": "Ismailia",
+    "label": "الإسماعيلية"
+  },
+  {
+    "value": "Suez",
+    "label": "السويس"
+  },
+  {
+    "value": "North Sinai",
+    "label": "شمال سيناء"
+  },
+  {
+    "value": "Matrouh",
+    "label": "مطروح"
+  },
+  {
+    "value": "Beni Suef",
+    "label": "بني سويف"
+  },
+  {
+    "value": "Minya",
+    "label": "المنيا"
+  },
+  {
+    "value": "Assiut",
+    "label": "أسيوط"
+  },
+  {
+    "value": "Sohag",
+    "label": "سوهاج"
+  },
+  {
+    "value": "Qena",
+    "label": "قنا"
+  },
+  {
+    "value": "Aswan",
+    "label": "أسوان"
+  },
+  {
+    "value": "New Valley",
+    "label": "الوادي الجديد"
+  }
+]

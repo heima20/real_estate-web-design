@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAIMO — Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-home">
+
+  <header class="site-header site-header--pages" id="site-header">
+    <a href="index.html" class="site-brand">SAIMO</a>
+    <nav class="site-nav" aria-label="main">
+      <a href="index.html" class="is-active">Home</a>
+      <a href="story.html">Story</a>
+      <a href="browse.html">Browse</a>
+      <a href="login.html" class="nav-auth">Sign In</a>
+    </nav>
+  </header>
+
+  <div class="home-hero-wrap">
+    <section class="hero hero--home" id="hero">
+      <div class="hero-frame" aria-hidden="true"></div>
+      <video autoplay muted loop playsinline>
+        <source src="https://videos.pexels.com/video-files/14502236/14502236-uhd_2560_1440_25fps.mp4" type="video/mp4">
+      </video>
+      <div class="overlay overlay--home"></div>
+      <div class="content">
+        <p class="eyebrow home-eyebrow" id="logo">SAIMO Private Collection</p>
+        <h1 class="main-title font-display" id="title" dir="ltr">SAIMO</h1>
+        <p class="subtitle" id="subtitle">Estates · Villas · Residences</p>
+        <div class="hero-actions">
+          <a href="browse.html" class="btn btn--solid">Browse Properties</a>
+          <a href="story.html" class="btn">Our Story</a>
+        </div>
+      </div>
+      <div class="scroll-hint">Scroll Down</div>
+      <div class="hero-shine" aria-hidden="true"></div>
+    </section>
+
+    <section class="home-strip" id="home-strip">
+      <div class="home-strip__inner">
+        <div class="home-strip__item"><span class="home-strip__n font-display" data-count="33">0</span><span>Exclusive Listings</span></div>
+        <div class="home-strip__line"></div>
+        <div class="home-strip__item"><span class="home-strip__n font-display" data-count="28">0</span><span>Governorates</span></div>
+        <div class="home-strip__line"></div>
+        <div class="home-strip__item"><span class="home-strip__n font-display" data-count="100">0</span><span>% Curated</span></div>
+      </div>
+    </section>
+
+    <section class="section section--home-featured alt" id="featured">
+      <div class="section-head">
+        <p class="section-kicker">Office Selection</p>
+        <h2 class="font-display">Featured Properties</h2>
+        <p class="section-lead">Filter by location and type on the Browse page, then enter for full details and high-resolution photography.</p>
+      </div>
+      <div class="featured-grid" id="featured-grid"></div>
+      <div class="home-cta-row">
+        <a href="browse.html" class="btn btn--solid btn--wide">Advanced Property Search</a>
+      </div>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <small>© SAIMO — curated luxury</small>
+    <div class="footer-links">
+      <a href="story.html">Story</a>
+      <a href="browse.html">Browse</a>
+      <a href="login.html" class="nav-auth">Sign In</a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>
